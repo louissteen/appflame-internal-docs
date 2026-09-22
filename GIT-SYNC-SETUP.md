@@ -64,6 +64,18 @@ Two things to expect, both normal:
    If a `README.md` has become `# Page`, restore it and push again — the content is still
    in this repo's history.
 
+   **This did happen on the first sync (2026-09-22).** Five space `README.md` files were
+   stubbed, five `SUMMARY.md` files truncated, and four `.gitbook/vars.yaml` plus
+   `changelog/.gitbook/tags.yaml` deleted. All interior pages survived untouched. Repaired
+   by restoring those files from the commit before GitBook's export commits.
+
+## GitBook owns this file now
+
+The first sync rewrote `gitbook-docs.yaml` with its own keys (`section-1`…`section-6`,
+`space-1`…`space-6`) and dropped the `description:` fields. **Those keys are the live
+binding to the six spaces — never rename them.** Pull before editing this file; GitBook
+rewrites it whenever anyone changes the content mapping in the UI.
+
 ## Why cross-space links use site URLs
 
 Links between sections are full published URLs
