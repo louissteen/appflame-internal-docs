@@ -19,6 +19,9 @@ site:
       path: home
       icon: house
       description: Entry point, documentation model, conventions
+      # Exactly one section must carry `default: true`. The default section serves at the
+      # site root (/) rather than at /home/.
+      default: true
       children:
         - type: space
           key: kb-home-space
