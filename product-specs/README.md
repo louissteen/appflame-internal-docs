@@ -14,7 +14,7 @@ is live.
 {% hint style="info" icon="circle-info" %}
 Looking for intent and rationale before build? That is the PRD, in Jira. Looking for what is
 being tested right now? That is
-[Experiments](https://app.gitbook.com/s/w8Lmy2czsVcJjubyVtYO/). This space describes the
+[Experiments](https://appflame.gitbook.io/appflame-knowledge-base/experiments/). This space describes the
 current production contract.
 {% endhint %}
 
@@ -68,7 +68,7 @@ decorative — our agents rely on it.
 ### Write current behaviour, not history
 
 If behaviour changed, describe the new behaviour and record the change in the
-[Changelog](https://app.gitbook.com/s/pEcKz5cFtkAMLkJL7WhD/). Do not leave the old behaviour on
+[Changelog](https://appflame.gitbook.io/appflame-knowledge-base/changelog/). Do not leave the old behaviour on
 the page "for context".
 {% endstep %}
 

@@ -45,7 +45,7 @@ It is now a neutral tile with radius-expansion rate beside it.
 {% hint style="info" icon="lightbulb" %}
 This is the kind of thing that only ever gets written down if experiment readouts are
 documented somewhere a person will read them. It came out of
-[EXP-2026-098](https://app.gitbook.com/s/w8Lmy2czsVcJjubyVtYO/concluded/exp-2026-098-hily-match-queue-ranking),
+[EXP-2026-098](https://appflame.gitbook.io/appflame-knowledge-base/experiments/concluded/exp-2026-098-hily-match-queue-ranking),
 not out of a dashboard review.
 {% endhint %}
 

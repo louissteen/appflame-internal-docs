@@ -93,5 +93,5 @@ An experiment is not finished when the readout is written. It is finished when:
 - [x] The readout section is complete, including the decision
 - [x] The page has moved from `active/` to `concluded/`
 - [x] Every spec in `affects:` is updated to describe the new production behaviour
-- [x] A [changelog](https://app.gitbook.com/s/pEcKz5cFtkAMLkJL7WhD/) entry exists
+- [x] A [changelog](https://appflame.gitbook.io/appflame-knowledge-base/changelog/) entry exists
 - [x] The flag is removed — see [rollout and cleanup](rollout-and-cleanup.md)

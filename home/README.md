@@ -52,31 +52,31 @@ Markdown, predictable frontmatter, explicit links — no rendered widgets they c
   <td><h3><i class="fa-layer-group" style="color:$primary;">:layer-group:</i></h3></td>
   <td><strong>Product Specs</strong></td>
   <td>What every feature does, per product. The human layer.</td>
-  <td><a href="https://app.gitbook.com/s/ObwCHTfcy9nm4oFjO3WU/">Product Specs</a></td>
+  <td><a href="https://appflame.gitbook.io/appflame-knowledge-base/product-specs/">Product Specs</a></td>
 </tr>
 <tr>
   <td><h3><i class="fa-flask" style="color:$primary;">:flask:</i></h3></td>
   <td><strong>Experiments</strong></td>
   <td>What is being tested right now, on which surface, and what we learned.</td>
-  <td><a href="https://app.gitbook.com/s/w8Lmy2czsVcJjubyVtYO/">Experiments</a></td>
+  <td><a href="https://appflame.gitbook.io/appflame-knowledge-base/experiments/">Experiments</a></td>
 </tr>
 <tr>
   <td><h3><i class="fa-chart-line" style="color:$primary;">:chart-line:</i></h3></td>
   <td><strong>Analytics</strong></td>
   <td>Metric definitions and the event taxonomy behind them.</td>
-  <td><a href="https://app.gitbook.com/s/l8hK5Dikt1kTwBMi6PyB/">Analytics</a></td>
+  <td><a href="https://appflame.gitbook.io/appflame-knowledge-base/analytics/">Analytics</a></td>
 </tr>
 <tr>
   <td><h3><i class="fa-robot" style="color:$primary;">:robot:</i></h3></td>
   <td><strong>AI &#38; Agents</strong></td>
   <td>How our agents read and write these docs — MCP, PRs, Slack.</td>
-  <td><a href="https://app.gitbook.com/s/RYponOt1LWLo6aRsOoNT/">AI and Agents</a></td>
+  <td><a href="https://appflame.gitbook.io/appflame-knowledge-base/ai-agents/">AI and Agents</a></td>
 </tr>
 <tr>
   <td><h3><i class="fa-clock-rotate-left" style="color:$primary;">:clock-rotate-left:</i></h3></td>
   <td><strong>Changelog</strong></td>
   <td>What shipped, when, and which spec it changed.</td>
-  <td><a href="https://app.gitbook.com/s/pEcKz5cFtkAMLkJL7WhD/">Changelog</a></td>
+  <td><a href="https://appflame.gitbook.io/appflame-knowledge-base/changelog/">Changelog</a></td>
 </tr>
 <tr>
   <td><h3><i class="fa-compass" style="color:$primary;">:compass:</i></h3></td>
@@ -101,7 +101,7 @@ flowchart LR
 
 The agent drafts. A human reviews. Nothing merges unreviewed except changelog entries.
 The full pipeline is documented in
-[PRD to docs](https://app.gitbook.com/s/RYponOt1LWLo6aRsOoNT/workflows/docs-in-pull-requests).
+[PRD to docs](https://appflame.gitbook.io/appflame-knowledge-base/ai-agents/workflows/docs-in-pull-requests).
 
 ## Conventions in one screen
 

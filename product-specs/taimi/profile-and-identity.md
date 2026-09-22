@@ -78,9 +78,9 @@ Primary metric: **profile completion rate** (share of accounts with photo + at l
 identity field within 7 days).
 
 Identity field *values* are not sent to analytics — only counts. See
-[event taxonomy](https://app.gitbook.com/s/l8hK5Dikt1kTwBMi6PyB/foundations/event-taxonomy).
+[event taxonomy](https://appflame.gitbook.io/appflame-knowledge-base/analytics/foundations/event-taxonomy).
 
 ## Related
 
 - Adjacent specs: [Taimi overview](README.md)
-- Active experiments: [EXP-2026-121](https://app.gitbook.com/s/w8Lmy2czsVcJjubyVtYO/active/exp-2026-121-taimi-onboarding-length)
+- Active experiments: [EXP-2026-121](https://appflame.gitbook.io/appflame-knowledge-base/experiments/active/exp-2026-121-taimi-onboarding-length)

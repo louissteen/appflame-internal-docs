@@ -79,6 +79,6 @@ against a permanent 2% holdout.
 ## Related
 
 - Concluded experiment: EXP-2026-102 (send-time optimisation) —
-  [readout](https://app.gitbook.com/s/w8Lmy2czsVcJjubyVtYO/concluded/exp-2026-102-mailkeeper-send-time)
+  [readout](https://appflame.gitbook.io/appflame-knowledge-base/experiments/concluded/exp-2026-102-mailkeeper-send-time)
 - Adjacent specs: [Mailkeeper overview](README.md),
   [Hily onboarding flow](../hily/onboarding-flow.md)

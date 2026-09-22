@@ -1,0 +1,104 @@
+# yaml-language-server: $schema=https://api.gitbook.com/gitbook-docs.yaml
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+
+# Site structure for the appflame internal knowledge base.
+# GitBook reconciles this file on every sync, and rewrites it itself if anyone
+# changes the content mapping in the UI — so pull before editing it.
+#
+# `key` is the binding. Titles, paths and directories can all change freely and the
+# existing space follows. CHANGING A KEY REPLACES THE SPACE: GitBook creates a new one,
+# leaves the old one orphaned under its old id, and every link into it stops resolving.
+# Treat keys as permanent.
+
+site:
+  title: appflame knowledge base
+  structure:
+    - type: section
+      key: kb-home
+      title: Home
+      path: home
+      icon: house
+      description: Entry point, documentation model, conventions
+      children:
+        - type: space
+          key: kb-home-space
+          title: Home
+          path: home
+          default: true
+          content:
+            directory: ./home
+
+    - type: section
+      key: kb-product-specs
+      title: Product Specs
+      path: product-specs
+      icon: layer-group
+      description: What every feature does in production, per product
+      children:
+        - type: space
+          key: kb-product-specs-space
+          title: Product Specs
+          path: product-specs
+          default: true
+          content:
+            directory: ./product-specs
+
+    - type: section
+      key: kb-experiments
+      title: Experiments
+      path: experiments
+      icon: flask
+      description: Active and concluded experiments, and where their results land
+      children:
+        - type: space
+          key: kb-experiments-space
+          title: Experiments
+          path: experiments
+          default: true
+          content:
+            directory: ./experiments
+
+    - type: section
+      key: kb-analytics
+      title: Analytics
+      path: analytics
+      icon: chart-line
+      description: Metric definitions, event taxonomy, readouts
+      children:
+        - type: space
+          key: kb-analytics-space
+          title: Analytics
+          path: analytics
+          default: true
+          content:
+            directory: ./analytics
+
+    - type: section
+      key: kb-ai-agents
+      title: AI & Agents
+      path: ai-agents
+      icon: robot
+      description: How our agents read and write this knowledge base
+      children:
+        - type: space
+          key: kb-ai-agents-space
+          title: AI & Agents
+          path: ai-agents
+          default: true
+          content:
+            directory: ./ai-agents
+
+    - type: section
+      key: kb-changelog
+      title: Changelog
+      path: changelog
+      icon: clock-rotate-left
+      description: What shipped, when, and which spec it changed
+      children:
+        - type: space
+          key: kb-changelog-space
+          title: Changelog
+          path: changelog
+          default: true
+          content:
+            directory: ./changelog

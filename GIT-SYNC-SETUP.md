@@ -1,53 +1,82 @@
-# Git Sync setup — one step per space, in the GitBook UI
+# Git Sync setup — site-level, one screen
 
-Everything else is done: the site exists, the six sections exist, branding is applied, and
-this repo is pushed. Git Sync is the one thing GitBook's API cannot configure, so it has to
-happen in the UI. About 30 seconds per space.
+This site uses **site-level Git Sync**: one connection for the whole site, with the
+structure declared in `gitbook-docs.yaml` at the repo root. You do not wire up each space
+individually.
 
 - **Site dashboard:** https://app.gitbook.com/o/438sDFbNAkntYXbecxsg/sites/site_5uzTT
 - **Published site:** https://appflame.gitbook.io/appflame-knowledge-base/
 - **Repo:** `louissteen/appflame-internal-docs` · branch `main`
 
-> **Before you start:** the first space will prompt you to install the GitBook app on your
-> GitHub account. Grant it access to `louissteen/appflame-internal-docs` (the repo is
-> private, so GitBook needs explicit access to it).
+## Finish the dialog you already have open
 
-> ⚠️ **Initial sync direction must be `GitHub → GitBook` every time.** Picking the other
-> direction pushes the empty GitBook space over the repo folder, and the only way back is
-> `git revert`.
+| Field | Value |
+|---|---|
+| Repository | `appflame-internal-docs` |
+| Branch | `main` |
+| Initial sync direction | **GitHub → GitBook** |
+| Project directory | `./` |
 
-## For each space, the same six fields
+`gitbook-docs.yaml` now exists at the repo root, so the red *"gitbook-docs.yaml does not
+exist on this branch"* error clears as soon as the dialog re-checks. Then click **Sync**.
 
-| # | Space | Open this | Project directory |
-|---|---|---|---|
-| 1 | Home | https://app.gitbook.com/o/438sDFbNAkntYXbecxsg/s/VGeLQpRSFRjUihwbJxNU/ | `home` |
-| 2 | Product Specs | https://app.gitbook.com/o/438sDFbNAkntYXbecxsg/s/ObwCHTfcy9nm4oFjO3WU/ | `product-specs` |
-| 3 | Experiments | https://app.gitbook.com/o/438sDFbNAkntYXbecxsg/s/w8Lmy2czsVcJjubyVtYO/ | `experiments` |
-| 4 | Analytics | https://app.gitbook.com/o/438sDFbNAkntYXbecxsg/s/l8hK5Dikt1kTwBMi6PyB/ | `analytics` |
-| 5 | AI & Agents | https://app.gitbook.com/o/438sDFbNAkntYXbecxsg/s/RYponOt1LWLo6aRsOoNT/ | `ai-agents` |
-| 6 | Changelog | https://app.gitbook.com/o/438sDFbNAkntYXbecxsg/s/pEcKz5cFtkAMLkJL7WhD/ | `changelog` |
+> ⚠️ **Direction matters.** `GitBook → GitHub` would push the empty site over the repo.
+> The only way back from that is `git revert`.
 
-Steps, identical for each row:
+## What happens on the first sync
 
-1. Open the space link above.
-2. Click **Set up Git Sync** (top right).
-3. Choose **GitHub**, authorize if prompted.
-4. Repository: **`louissteen/appflame-internal-docs`**
-5. Branch: **`main`**
-6. Click **Show advanced options** → **Project directory**: the value from the table.
-7. Initial sync direction: **GitHub → GitBook**.
-8. Click **Initialize** and wait for the import to finish.
+The yaml declares six sections, each backed by one space:
 
-## After all six
+| Section | Path | Directory |
+|---|---|---|
+| Home | `home` (serves at the site root) | `./home` |
+| Product Specs | `product-specs` | `./product-specs` |
+| Experiments | `experiments` | `./experiments` |
+| Analytics | `analytics` | `./analytics` |
+| AI & Agents | `ai-agents` | `./ai-agents` |
+| Changelog | `changelog` | `./changelog` |
 
-The site fills in immediately. Two things worth checking:
+Two things to expect, both normal:
 
-- Cross-space links (the cards on the homepage, the spec ↔ experiment links) resolve
-  through real space IDs. GitBook's link resolver can take up to ~30 minutes to start
-  resolving links into brand-new spaces, so if a card lands on a login page, wait and
-  re-check before assuming it is broken.
-- Pages rendered before the resolver caught up stay cached. If a link is still wrong after
-  30 minutes, push a no-op commit touching that space's directory to force a re-render.
+1. **The six empty spaces created earlier via the API get replaced.** `gitbook-docs.yaml`
+   binds entries by `key`, and there is no way to point a key at an existing space id — so
+   GitBook creates fresh spaces and leaves the originals detached in the org. They are
+   empty, so nothing is lost; they just want deleting afterwards.
+
+2. **Creating six spaces in one sync can eat files.** Each new space exports its empty
+   initial revision back to the repo as a `GitBook: Export content from <title>` commit,
+   which races the import. When the export wins, it overwrites that directory's
+   `README.md` with `# Page` and truncates its `SUMMARY.md`.
+
+   After the sync, check for it:
+
+   ```bash
+   git pull && git log --oneline -15 | grep "Export content from"
+   git diff HEAD~5 --stat -- '*/README.md' '*/SUMMARY.md'
+   ```
+
+   If a `README.md` has become `# Page`, restore it and push again — the content is still
+   in this repo's history.
+
+## Why cross-space links use site URLs
+
+Links between sections are full published URLs
+(`https://appflame.gitbook.io/appflame-knowledge-base/analytics/...`) rather than
+`app.gitbook.com/s/<spaceId>/` content refs.
+
+Content refs are keyed on the space id, which changes whenever the yaml recreates a space.
+Site URLs are keyed on the **section path**, which `gitbook-docs.yaml` controls — so they
+keep working through structure changes. Changing a section's `path` in the yaml is the one
+thing that would break them.
+
+## Keys are permanent
+
+`key:` in `gitbook-docs.yaml` is what binds an entry to a space. Change a `title`, a
+`path`, or a `content.directory` freely — the existing space follows.
+
+**Changing a `key` replaces the space**: GitBook creates a new one, imports into it, and
+leaves the old one orphaned under its old id. Restoring the key does not undo it. Treat
+keys as permanent and never tidy them up.
 
 ## Turning it into a real internal site
 

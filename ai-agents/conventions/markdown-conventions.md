@@ -43,11 +43,13 @@ string must also exist in prose or in a table.
 {% endstep %}
 
 {% step %}
-### Use relative links inside a space, GitBook URLs across spaces
+### Use relative links inside a space, site URLs across spaces
 
 `../hily/onboarding-flow.md` within Product Specs;
-`https://app.gitbook.com/s/<spaceId>/...` when pointing at Analytics or Experiments. Both
-resolve; mixing them up produces a broken link that renders as plain text.
+`https://appflame.gitbook.io/appflame-knowledge-base/analytics/...` when pointing at
+another section. The site URL is keyed on the **section path** declared in
+`gitbook-docs.yaml`, so it survives a space being recreated — unlike an
+`app.gitbook.com/s/<spaceId>/` reference, which breaks the moment the space id changes.
 {% endstep %}
 
 {% step %}

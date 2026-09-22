@@ -58,7 +58,7 @@ here should not be wrong about anything.
 ## Measurement
 
 Primary metric: **<name>**.
-Analytics entry: [link](https://app.gitbook.com/s/l8hK5Dikt1kTwBMi6PyB/)
+Analytics entry: [link](https://appflame.gitbook.io/appflame-knowledge-base/analytics/foundations/metric-definitions)
 
 ## Related
 

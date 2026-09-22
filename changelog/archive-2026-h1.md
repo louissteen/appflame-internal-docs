@@ -13,7 +13,7 @@ retrofitting.
 
 {% hint style="info" icon="box-archive" %}
 **Read these as historical record, not as documentation.** For current behaviour, always
-read the [spec](https://app.gitbook.com/s/ObwCHTfcy9nm4oFjO3WU/).
+read the [spec](https://appflame.gitbook.io/appflame-knowledge-base/product-specs/).
 {% endhint %}
 
 {% updates format="short" %}

@@ -20,7 +20,7 @@ One or two sentences saying what changed and what moved as a result.
 
 Any configuration key that changed, with its new default.
 
-[Link to the spec that changed](https://app.gitbook.com/s/<spaceId>/<path>)
+[Link to the spec that changed](https://appflame.gitbook.io/appflame-knowledge-base/product-specs/<path>)
 {% endupdate %}
 ````
 

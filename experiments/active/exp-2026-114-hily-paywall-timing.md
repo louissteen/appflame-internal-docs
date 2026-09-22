@@ -62,7 +62,7 @@ rate rises more than 0.5pp. Otherwise run to 2026-10-05.
 
 {% hint style="warning" icon="link" %}
 This experiment changes behaviour documented in
-[Subscriptions and paywalls](https://app.gitbook.com/s/ObwCHTfcy9nm4oFjO3WU/hily/subscriptions-and-paywalls),
+[Subscriptions and paywalls](https://appflame.gitbook.io/appflame-knowledge-base/product-specs/hily/subscriptions-and-paywalls),
 which is marked `under-test` for its duration. Read both pages together.
 {% endhint %}
 
