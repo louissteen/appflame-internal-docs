@@ -4,6 +4,12 @@ This site uses **site-level Git Sync**: one connection for the whole site, with 
 structure declared in `gitbook-docs.yaml` at the repo root. You do not wire up each space
 individually.
 
+> ⚠️ **Set this up on the site called `appflame knowledge base` (`site_5uzTT`), not on
+> `Appflame Docs` (`site_qH8wf`).** `Appflame Docs` is the empty default site the org was
+> created with — it has none of the branding, and its one space is called *Untitled*. If
+> the Git Sync dialog shows *Appflame Docs* or a `./untitled → Untitled` row, you are on
+> the wrong site: click **Remove Git Sync**, then start again from the dashboard below.
+
 - **Site dashboard:** https://app.gitbook.com/o/438sDFbNAkntYXbecxsg/sites/site_5uzTT
 - **Published site:** https://appflame.gitbook.io/appflame-knowledge-base/
 - **Repo:** `louissteen/appflame-internal-docs` · branch `main`
