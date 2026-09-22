@@ -79,10 +79,10 @@ Secondary: trial-to-paid conversion, D30 subscriber retention.
 ## Related
 
 {% hint style="warning" icon="flask" %}
-**Under test.** [EXP-2026-114](https://app.gitbook.com/s/XSPACE_EXPERIMENTS/active/exp-2026-114-hily-paywall-timing)
+**Under test.** [EXP-2026-114](https://app.gitbook.com/s/w8Lmy2czsVcJjubyVtYO/active/exp-2026-114-hily-paywall-timing)
 is testing paywall placement at first match versus after the first sent message. Expect this
 spec's Behaviour table to change when it concludes.
 {% endhint %}
 
 - Adjacent specs: [Matching and discovery](matching-and-discovery.md)
-- Analytics: [metric definitions](https://app.gitbook.com/s/XSPACE_ANALYTICS/foundations/metric-definitions)
+- Analytics: [metric definitions](https://app.gitbook.com/s/l8hK5Dikt1kTwBMi6PyB/foundations/metric-definitions)

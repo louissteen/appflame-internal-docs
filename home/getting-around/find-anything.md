@@ -59,16 +59,16 @@ directly — and, with the right permissions, open change requests against it.
 ```
 
 Setup, permissions and the write path are documented in
-[the MCP connector page](https://app.gitbook.com/s/XSPACE_AGENTS/workflows/mcp-connector).
+[the MCP connector page](https://app.gitbook.com/s/RYponOt1LWLo6aRsOoNT/workflows/mcp-connector).
 
 ## When you cannot find something
 
 In order:
 
 1. Search for the **surface name**, not the feature name — surfaces are more stable.
-2. Check the [Changelog](https://app.gitbook.com/s/XSPACE_CHANGELOG/) — it may have shipped
+2. Check the [Changelog](https://app.gitbook.com/s/pEcKz5cFtkAMLkJL7WhD/) — it may have shipped
    under a different name.
-3. Check [Experiments](https://app.gitbook.com/s/XSPACE_EXPERIMENTS/) — it may still be
+3. Check [Experiments](https://app.gitbook.com/s/w8Lmy2czsVcJjubyVtYO/) — it may still be
    behind a flag and not in a spec yet.
 4. Ask in <code class="expression">space.vars.docs_owner</code>. If the answer is useful,
    the person answering opens a change request for it. A question answered only in Slack is

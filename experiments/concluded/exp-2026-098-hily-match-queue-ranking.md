@@ -58,12 +58,12 @@ to radius expansion at a higher rate in treatment than control.
 **What we learned beyond the result.** Queue exhaustion turned out to be a *leading*
 indicator of radius expansion, not of churn. We had been treating it as a negative signal in
 dashboards; it has since been reclassified. See
-[dashboards](https://app.gitbook.com/s/XSPACE_ANALYTICS/reporting/dashboards).
+[dashboards](https://app.gitbook.com/s/l8hK5Dikt1kTwBMi6PyB/reporting/dashboards).
 {% endhint %}
 
 ## Cleanup
 
-- [x] Spec updated — [Matching and discovery](https://app.gitbook.com/s/XSPACE_SPECS/hily/matching-and-discovery), `disc_inactive_cutoff_hours` now `72`
+- [x] Spec updated — [Matching and discovery](https://app.gitbook.com/s/ObwCHTfcy9nm4oFjO3WU/hily/matching-and-discovery), `disc_inactive_cutoff_hours` now `72`
 - [x] `under-test` removed
 - [x] Changelog entry written
 - [x] Flag `disc_recency_weight_v2` deleted 2026-09-02

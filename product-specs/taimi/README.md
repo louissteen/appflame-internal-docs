@@ -34,5 +34,5 @@ an acceptable description on any Taimi safety surface.
 | Surface | Spec | Owner |
 |---|---|---|
 | Profile & identity | [Profile and identity](profile-and-identity.md) | Product — Taimi |
-| Onboarding | Under test — see [EXP-2026-121](https://app.gitbook.com/s/XSPACE_EXPERIMENTS/active/exp-2026-121-taimi-onboarding-length) | Product — Growth |
+| Onboarding | Under test — see [EXP-2026-121](https://app.gitbook.com/s/w8Lmy2czsVcJjubyVtYO/active/exp-2026-121-taimi-onboarding-length) | Product — Growth |
 | Discovery | Shares the Hily ranking contract with region-aware defaults | Product — Core |

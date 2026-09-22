@@ -57,14 +57,14 @@ dashboard tile rather than being buried in delivery failures.
 {% hint style="warning" icon="toggle-on" %}
 **The flag stayed.** `mk_sendtime_model_enabled` is now an *operational* flag, not an
 experiment flag: it is the kill switch if the model degrades. It is therefore documented in
-the [Lifecycle campaigns](https://app.gitbook.com/s/XSPACE_SPECS/mailkeeper/lifecycle-campaigns)
+the [Lifecycle campaigns](https://app.gitbook.com/s/ObwCHTfcy9nm4oFjO3WU/mailkeeper/lifecycle-campaigns)
 Configuration table — see
 [rollout and cleanup](../lifecycle/rollout-and-cleanup.md) for why this distinction matters.
 {% endhint %}
 
 ## Cleanup
 
-- [x] Spec updated — [Lifecycle campaigns](https://app.gitbook.com/s/XSPACE_SPECS/mailkeeper/lifecycle-campaigns)
+- [x] Spec updated — [Lifecycle campaigns](https://app.gitbook.com/s/ObwCHTfcy9nm4oFjO3WU/mailkeeper/lifecycle-campaigns)
 - [x] `under-test` removed
 - [x] Changelog entry written
 - [x] Flag reclassified as operational and documented in the spec

@@ -54,7 +54,7 @@ ones agents get wrong when the spec is silent.
 ## Specs
 
 This space is intentionally thin today. Ingestion and attribution specs are being migrated
-from Confluence; see the [Changelog](https://app.gitbook.com/s/XSPACE_CHANGELOG/) for
+from Confluence; see the [Changelog](https://app.gitbook.com/s/pEcKz5cFtkAMLkJL7WhD/) for
 migration progress.
 
 | Planned spec | Status |

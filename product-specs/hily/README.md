@@ -12,7 +12,7 @@ reviewed: 2026-09-15
 
 Hily is a dating app that allows users to be truly themselves and enjoy dating as they are.
 It is our largest product by daily active users and by experiment volume — most of what
-runs in [Experiments](https://app.gitbook.com/s/XSPACE_EXPERIMENTS/) at any moment touches
+runs in [Experiments](https://app.gitbook.com/s/w8Lmy2czsVcJjubyVtYO/) at any moment touches
 a Hily surface.
 
 ## Surface map

@@ -58,7 +58,7 @@ here should not be wrong about anything.
 ## Measurement
 
 Primary metric: **<name>**.
-Analytics entry: [link](https://app.gitbook.com/s/XSPACE_ANALYTICS/)
+Analytics entry: [link](https://app.gitbook.com/s/l8hK5Dikt1kTwBMi6PyB/)
 
 ## Related
 

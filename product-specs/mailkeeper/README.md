@@ -47,7 +47,7 @@ flowchart LR
 Because the loop closes back into app analytics, **Mailkeeper campaign changes can move
 app metrics**. Any experiment on a Mailkeeper campaign must declare the app metrics it
 could affect — see
-[experiment lifecycle](https://app.gitbook.com/s/XSPACE_EXPERIMENTS/lifecycle/experiment-lifecycle).
+[experiment lifecycle](https://app.gitbook.com/s/w8Lmy2czsVcJjubyVtYO/lifecycle/experiment-lifecycle).
 
 ## Specs
 

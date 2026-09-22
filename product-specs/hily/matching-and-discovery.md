@@ -75,11 +75,11 @@ priority. Model internals are the technical layer we deliberately do not duplica
 
 Primary metric: **match rate per session**.
 
-See [metric definitions](https://app.gitbook.com/s/XSPACE_ANALYTICS/foundations/metric-definitions).
+See [metric definitions](https://app.gitbook.com/s/l8hK5Dikt1kTwBMi6PyB/foundations/metric-definitions).
 
 ## Related
 
 - Concluded experiment: EXP-2026-098 (match queue ranking) — shipped, see
-  [readout](https://app.gitbook.com/s/XSPACE_EXPERIMENTS/concluded/exp-2026-098-hily-match-queue-ranking)
+  [readout](https://app.gitbook.com/s/w8Lmy2czsVcJjubyVtYO/concluded/exp-2026-098-hily-match-queue-ranking)
 - Adjacent specs: [Onboarding flow](onboarding-flow.md),
   [Subscriptions and paywalls](subscriptions-and-paywalls.md)

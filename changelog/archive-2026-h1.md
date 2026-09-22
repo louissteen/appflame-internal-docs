@@ -13,7 +13,7 @@ retrofitting.
 
 {% hint style="info" icon="box-archive" %}
 **Read these as historical record, not as documentation.** For current behaviour, always
-read the [spec](https://app.gitbook.com/s/XSPACE_SPECS/).
+read the [spec](https://app.gitbook.com/s/ObwCHTfcy9nm4oFjO3WU/).
 {% endhint %}
 
 {% updates format="short" %}

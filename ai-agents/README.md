@@ -66,4 +66,4 @@ or clear a staleness flag. These are permission-level restrictions, not prompt i
 {% endhint %}
 
 Full permission matrix in
-[PRD to docs pipeline](https://app.gitbook.com/s/XSPACE_EXPERIMENTS/lifecycle/prd-to-docs-pipeline).
+[PRD to docs pipeline](https://app.gitbook.com/s/w8Lmy2czsVcJjubyVtYO/lifecycle/prd-to-docs-pipeline).

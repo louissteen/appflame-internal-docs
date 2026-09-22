@@ -65,9 +65,9 @@ confidence. Otherwise run to 2026-10-12.
 
 ## Affected documentation
 
-- [Profile and identity](https://app.gitbook.com/s/XSPACE_SPECS/taimi/profile-and-identity) — marked `under-test`
+- [Profile and identity](https://app.gitbook.com/s/ObwCHTfcy9nm4oFjO3WU/taimi/profile-and-identity) — marked `under-test`
 - If it wins, the equivalent change is planned for
-  [Hily onboarding](https://app.gitbook.com/s/XSPACE_SPECS/hily/onboarding-flow) as a
+  [Hily onboarding](https://app.gitbook.com/s/ObwCHTfcy9nm4oFjO3WU/hily/onboarding-flow) as a
   separate experiment, not as a direct rollout.
 
 ## Readout

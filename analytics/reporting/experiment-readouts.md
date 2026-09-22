@@ -37,7 +37,7 @@ reclassification of queue exhaustion came from here, not from the results table.
 ### Cleanup checklist
 
 The five boxes from
-[rollout and cleanup](https://app.gitbook.com/s/XSPACE_EXPERIMENTS/lifecycle/rollout-and-cleanup),
+[rollout and cleanup](https://app.gitbook.com/s/w8Lmy2czsVcJjubyVtYO/lifecycle/rollout-and-cleanup),
 ticked or explicitly deferred.
 {% endstep %}
 {% endstepper %}

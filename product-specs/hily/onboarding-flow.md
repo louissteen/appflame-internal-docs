@@ -64,16 +64,16 @@ After step 5 the user enters discovery. Steps 6 and 7 are shown but dismissible.
 Primary metric: **onboarding completion rate** — installs reaching step 5 within 24 hours.
 
 Full definitions and the event list are in the
-[analytics entry](https://app.gitbook.com/s/XSPACE_ANALYTICS/foundations/event-taxonomy).
+[analytics entry](https://app.gitbook.com/s/l8hK5Dikt1kTwBMi6PyB/foundations/event-taxonomy).
 
 ## Related
 
 {% hint style="warning" icon="flask" %}
-**Under test.** [EXP-2026-121](https://app.gitbook.com/s/XSPACE_EXPERIMENTS/active/exp-2026-121-taimi-onboarding-length)
+**Under test.** [EXP-2026-121](https://app.gitbook.com/s/w8Lmy2czsVcJjubyVtYO/active/exp-2026-121-taimi-onboarding-length)
 runs the equivalent shortened flow on Taimi; if it wins, the same reduction is planned here.
 {% endhint %}
 
 - Adjacent specs: [Matching and discovery](matching-and-discovery.md),
   [Subscriptions and paywalls](subscriptions-and-paywalls.md)
 - Last behaviour change: notification prompt moved from step 5 to step 7 —
-  see the [Changelog](https://app.gitbook.com/s/XSPACE_CHANGELOG/)
+  see the [Changelog](https://app.gitbook.com/s/pEcKz5cFtkAMLkJL7WhD/)
