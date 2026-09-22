@@ -1,0 +1,5 @@
+spec_template: "spec-format/spec-template.md"
+product_council: "#product-council"
+flag_service: "RemoteConfig"
+docs_owner: "#docs-guild"
+review_sla: "2 business days"

@@ -1,0 +1,24 @@
+- tag: hily
+  label: Hily
+  icon: heart
+- tag: taimi
+  label: Taimi
+  icon: rainbow
+- tag: adconnect
+  label: AdConnect
+  icon: bullhorn
+- tag: mailkeeper
+  label: Mailkeeper
+  icon: envelope
+- tag: experiment
+  label: Experiment
+  icon: flask
+- tag: analytics
+  label: Analytics
+  icon: chart-line
+- tag: docs
+  label: Knowledge base
+  icon: book
+- tag: breaking
+  label: Breaking
+  icon: triangle-exclamation
