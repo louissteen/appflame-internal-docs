@@ -1,4 +1,0 @@
-analytics_owner: "#analytics"
-warehouse: "BigQuery"
-event_schema_version: "2026-07"
-freshness_sla: "4 hours"
