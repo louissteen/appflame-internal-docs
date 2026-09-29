@@ -92,6 +92,5 @@ site:
           title: Legal
           path: legal
           default: true
-          draft: true
           content:
             directory: ./legal
