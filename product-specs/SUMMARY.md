@@ -5,6 +5,7 @@
 ## Spec format
 
 * [Anatomy of a spec](spec-format/anatomy-of-a-spec.md)
+* [This is a new page](spec-format/this-is-a-new-page.md)
 * [Spec template](spec-format/spec-template.md)
 
 ## Hily
