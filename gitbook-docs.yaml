@@ -81,3 +81,17 @@ site:
           default: true
           content:
             directory: ./changelog
+    - type: section
+      key: section-7
+      title: Legal
+      path: legal
+      icon: scale-balanced
+      children:
+        - type: space
+          key: space-7
+          title: Legal
+          path: legal
+          default: true
+          draft: true
+          content:
+            directory: ./legal
