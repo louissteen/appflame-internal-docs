@@ -21,6 +21,7 @@ layout:
 
 > Flame up the world with Ukrainian products — and document it properly while you do.
 
+HI KLARA
 This is the internal knowledge base for **Hily**, **Taimi**, **AdConnect** and
 **Mailkeeper**. It is gated behind <code class="expression">space.vars.sso_provider</code>
 SSO and visible only to appflame employees.
